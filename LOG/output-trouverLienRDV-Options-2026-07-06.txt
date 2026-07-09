@@ -1,0 +1,33 @@
+**********************
+PowerShell transcript start
+Start time: 20260706155647
+Username: AVA\admin.task
+RunAs User: AVA\admin.task
+Configuration Name: 
+Machine: 050-VLB-SRV-MYR (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -File D:\MyReport\Sources\Reporting\DIGITAL\Sources\LienRDV-Options\SCRIPT\trouverLienRDV-Options.ps1
+Process ID: 27296
+PSVersion: 7.5.5
+PSEdition: Core
+GitCommitId: 7.5.5
+OS: Microsoft Windows 10.0.17763
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is D:\MyReport\Sources\Reporting\DIGITAL\Sources\LienRDV-Options\SCRIPT\LOG\output-trouverLienRDV-Options-2026-07-06.txt
+  LIEN RDV WEB (Novius) <-> OPTIONS (Winner)
+  2026-07-06 15:56:47
+Vérification ds processus DuckDB avant démarrage...
+Aucun processus DuckDB est en cours....
+[1/3] Chargement des données sources (SQL Server -> DuckDB mémoire)...
+[2/3] Exécution de la requête de lien + export CSV...
+  CSV créé : D:\MyReport\Sources\Reporting\DIGITAL\Sources\LienRDV-Options\LIEN_RDV_WEB_OPTION.csv (43488 lignes, 2659.1 Ko) en 7,6s
+[3/3] Nettoyage...
+  Traitement terminé avec succès
+**********************
+PowerShell transcript end
+End time: 20260706155656
+**********************
